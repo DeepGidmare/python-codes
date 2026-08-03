@@ -1,0 +1,14 @@
+# a simple number guessing game
+import random
+
+x=random.randint(1,100)
+while True:
+    a=int(input("enter a number between 1 to 100 :"))
+    if a > x:
+        print("number guessed is larger")
+    elif a < x:
+        print("number guessed is smaller")
+    else:
+        print("congragulation you guessed a right number")    
+        break
+
